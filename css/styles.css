@@ -1,5 +1,4 @@
 body {
-    background-color: hsl(221, 100%, 96%);
     font-family: 'Hanken Grotesk',sans-serif;
 }
 
@@ -33,6 +32,7 @@ h2 {
     border-radius: 20px;
     background-color: hsl(0, 0%, 100%);
     background-color: white;
+    box-shadow: 2px 2px 37px rgb(214,212,212);
 }
 
 .blue-box {
