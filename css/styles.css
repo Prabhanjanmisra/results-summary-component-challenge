@@ -1,0 +1,185 @@
+body {
+    background-color: hsl(221, 100%, 96%);
+    font-family: 'Hanken Grotesk',sans-serif;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+.attribution {
+    text-align: center;
+}
+
+.grey100 {
+    color: hsl(241, 100%, 89%);
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-box {
+    max-width: 600px;
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 100%);
+    background-color: white;
+}
+
+.blue-box {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    justify-content: space-between;
+    padding: 30px 50px;
+    background: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+}
+
+.blue-box h2 {
+    color: hsl(241, 100%, 89%);
+}
+
+
+.white-box {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.circle {
+    height: 170px;
+    width: 170px;
+    border-radius: 100%;
+    text-align: center;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.blue-box h1 {
+    color: white;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.circle h1 {
+    color: white;
+    font-weight: 800;
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+
+.blue-box p {
+    color: hsl(241, 100%, 89%);
+}
+
+.list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    border-style: none;
+    padding-top: 15px;
+    border-radius: 20px !important;
+}
+
+.white-box h2 {
+    font-weight: 700;
+    color: hsl(224, 30%, 27%);
+}
+
+.attribute {
+    display: flex;
+    justify-content: space-around;
+}
+
+.white-box h6 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: hsl(224, 30%, 27%);    
+}
+
+.attribute img {
+    height: 1.2rem;
+}
+
+.list-item:nth-of-type(1) h6 {
+    color: hsl(0, 100%, 67%);
+}
+
+.list-item:nth-of-type(1) {
+    background-color: hsl(0, 100%, 96%);
+}
+
+.list-item:nth-of-type(2) h6 {
+    color: hsl(39, 100%, 56%);
+}
+
+.list-item:nth-of-type(2) {
+    background-color: hsl(39, 100%, 96%);
+}
+
+.list-item:nth-of-type(3) h6 {
+    color: hsl(166, 100%, 37%);
+}
+
+.list-item:nth-of-type(3) {
+    background-color: hsl(166, 100%, 96%);
+}
+
+.list-item:nth-of-type(4) h6 {
+    color: hsl(234, 85%, 45%);
+}
+
+.list-item:nth-of-type(4) {
+    background-color: hsl(234, 85%, 95%);
+}
+
+.btn {
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+    border-radius: 20px;
+}
+
+.btn:hover {
+    background: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    color: white;
+}
+
+@media (max-width: 570px) {
+    .flex-container {
+        display: inline;
+    }
+
+    .blue-box {
+        border-radius: 60px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+
+    .attribution {
+        display: none;
+    }
+
+    .btn {
+        margin-top: 20px;
+    }
+
+}
